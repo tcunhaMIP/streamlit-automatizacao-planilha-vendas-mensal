@@ -161,7 +161,7 @@ def to_excel_bytes(df: pd.DataFrame) -> bytes:
 
 st.set_page_config(page_title="Relatório de Reservas", page_icon="📊")
 
-st.title("Relatório de Reservas - CVCRM")
+st.title("Relatório de Vendas Mensal - CVCRM")
 
 # Seleção de empreendimento
 nomes_emp = [e["nome"] for e in EMPREENDEDIMENTOS]
